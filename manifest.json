@@ -1,0 +1,8 @@
+{
+    "name": "News App",
+    "short_name": "News App",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+}
