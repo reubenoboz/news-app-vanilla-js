@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/news-details.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>News App</title>
+  </head>
+
+  <body class="m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+      <!-- navbar -->
+      <div>
+        <nav class="header">
+          <div class="header_links">
+            <a class="header_logo" href="/index.html">News App</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- News  -->
+
+      <div class="wrapper">
+        <div class="title"></div>
+        <div class="slider_wrapper">
+          <div class="slider_container">
+            <div class="prev">&lt;</div>
+            <div class="next">&gt;</div>
+          </div>
+        </div>
+        <div class="comments_container">
+          <div class="comments"></div>
+          <!-- comment form -->
+          <div class="form_container">
+            <div class="form_title">Post a Comment</div>
+            <form id="#comment_form" class="form">
+              <div class="input_wrapper">
+                <input
+                  class="input_field"
+                  name="name"
+                  id="#name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="input_wrapper">
+                <input
+                  name="avatar"
+                  id="#avatar"
+                  class="input_field"
+                  placeholder="Enter the link to your avatar"
+                  required
+                />
+              </div>
+              <div class="input_wrapper">
+                <textarea
+                  class="input_field"
+                  name="comment"
+                  id="#comment"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+              <div class="submit_wrapper">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <p>&copy; 2023 News Articles</p>
+      </div>
+    </div>
+
+    <script rel="script" src="../js/news-details.js"></script>
+  </body>
+</html>

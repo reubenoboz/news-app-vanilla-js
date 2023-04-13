@@ -1,0 +1,182 @@
+.title h1 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.title .author {
+    font-size: smaller;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.slider_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider_container {
+    margin-top: 2rem;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider_container .slider_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.comments_container {
+    margin-top: 5rem;
+    padding: 0 5rem;
+}
+
+.comments {
+    height: auto;
+    overflow: scroll;
+    max-height: 30rem;
+}
+
+.comment_container {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 2rem 0;
+}
+
+.comment_container .avatar_container {
+    margin-right: 3rem;
+}
+
+.avatar_container .comment_image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.comment .comment_name {
+    font-weight: 700;
+}
+
+.comment .comment_data {
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.edit_del_btns {
+    margin-top: 0.4rem;
+}
+
+.edit_del_btns .action_container {
+    display: flex;
+}
+
+.action_container .edit_comment {
+    cursor: pointer;
+    color: darkcyan;
+    font-size: small;
+    margin-right: 1rem;
+}
+
+.action_container .delete_comment {
+    cursor: pointer;
+    color: red;
+    font-size: small;
+}
+
+.comment .comment_date {
+    font-weight: 100;
+    font-size: small;
+    margin-top: 1.5rem;
+}
+
+.form_container {
+    margin: 5rem 0;
+}
+
+.form_title {
+    font-weight: 600;
+}
+
+.input_wrapper {
+    padding: 1rem 1rem;
+    border: 1px solid gray;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+
+
+.input_wrapper:hover {
+    border-color: gray
+}
+
+.input_wrapper:focus-within {
+    border-color: gray
+}
+
+.input_wrapper .input_field {
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.submit_wrapper {
+    margin-top: 2rem;
+}
+
+.submit_wrapper button {
+    padding: 0.5rem 3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit_wrapper button:hover {
+    padding: 0.5rem 3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #444444;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}

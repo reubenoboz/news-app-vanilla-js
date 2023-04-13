@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/news-details.css" />
+    <link rel="stylesheet" href="../css/create-news.css" />
+    <title>News App</title>
+  </head>
+
+  <body class="m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+      <!-- navbar -->
+      <div>
+        <nav class="header">
+          <div class="header_links">
+            <a class="header_logo" href="/index.html">News App</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- News  -->
+
+      <div class="create_news_wrapper">
+        <div class="form_container">
+          <div class="form_title">Create News Post</div>
+          <form id="#news_form" class="form">
+            <div class="input_wrapper">
+              <input
+                class="input_field"
+                name="title"
+                id="#title"
+                placeholder="Enter the news title"
+                required
+              />
+            </div>
+            <div class="input_wrapper">
+              <input
+                name="avatar"
+                id="#avatar"
+                class="input_field"
+                placeholder="Enter the link to your avatar"
+                required
+              />
+            </div>
+            <div class="input_wrapper">
+              <input
+                class="input_field"
+                name="author"
+                id="#author"
+                placeholder="Enter the news author"
+                required
+              />
+            </div>
+            <div class="input_wrapper">
+              <input
+                class="input_field"
+                name="url"
+                id="#url"
+                placeholder="Enter the news url"
+                required
+              />
+            </div>
+
+            <div class="submit_wrapper">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <p>&copy; 2023 News Articles</p>
+      </div>
+    </div>
+
+    <script rel="script" src="../js/create-post.js"></script>
+  </body>
+</html>

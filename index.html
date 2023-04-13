@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>News App</title>
+  </head>
+
+  <body class="m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+      <!-- navbar -->
+      <div>
+        <nav class="header">
+          <div class="header_links">
+            <a class="header_logo" href="#">News App</a>
+            <a class="create_post" href="/html/create-post.html"
+              >Create News Post</a
+            >
+          </div>
+        </nav>
+      </div>
+
+      <!-- News  -->
+      <div class="wrapper">
+        <div class="card_container" id="newsdetails"></div>
+
+        <div class="pagination">
+          <button disabled id="previous-button">Prev</button>
+          <button id="next-button">Next</button>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <p>&copy; 2023 News Articles</p>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
